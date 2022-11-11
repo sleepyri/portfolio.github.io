@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <title> bellmori | Guess the RGB color</title>
+    
+    <link rel="stylesheet" href="css/style-color.css">
+    <script src="js/colorgame.js" defer></script>
+
+    <meta property="og:title" content="bellmori | Guess the RGB color">
+    <meta property="og:description" content="bellmori - Portfolio">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="bellmori.me">
+</head>
+<header>
+    <div class="top-bar">
+      <div class="logo-container">
+        <h4 class="logo">bellmori </h4>
+      </div>
+      <nav>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="./index.html"><b>About</b></a></li>
+            <li><a class="nav-link" href="./memori-game.html">Memori</a></li>
+            <li><a class="nav-link" href="./index.html">Works<a>
+              <ul class="sub-nav">
+                <li><a href="./blender.html">Blender</a></li>
+                <li><a href="./digital-art.html">Digital Art</a></li>
+                <li><a href="./memori-game.html">Memori Game</a></li>
+                <li><a href="./guess-the-color.html">Guess The Color</a></li>
+              </ul>
+            </li>
+          </ul>
+      </nav>
+      <div class="social-media">
+        <a class="media-icon-container" href="https://www.instagram.com/bell_mori/" target="_blank">
+          <img class="media-icon" src="./assets/icon-instagram.png" alt="Instagram" />
+        </a>
+        <a class="media-icon-container" href="https://github.com/sleepyri" target="_blank">
+          <img class="media-icon" src="./assets/icon-github.png" alt="Github" />
+        </a>
+        <a class="media-icon-container" href="https://www.youtube.com/channel/UCrAyjt8kQRCuPkczgLWRwOQ" target="_blank">
+          <img class="media-icon" src="./assets/icon-youtube.png" alt="Youtube" />
+        </a>
+      </div>
+    </div>
+</header>
+
+<body>
+    <h1>The RGB Color Guessing Game
+        <br> 
+        <span id="colorDisplay">RGB</span>
+    </h1>
+
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button id="easyButton">Easy</button>
+        <button id="hardButton"class="selected">Hard</button>
+        
+    </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+</body>
+
+</html>
